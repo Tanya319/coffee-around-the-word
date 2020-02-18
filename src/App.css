@@ -1,0 +1,356 @@
+body {
+  color:#fff;
+  perspective: 1px;
+  transform-style:preserve-3d;
+
+ overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.login-form{
+  width:100%;
+  max-width:100px;
+  padding:15px;
+  margin:auto;
+  height:100%;
+}
+
+
+
+.wrapper {
+
+
+  overflow-x: hidden;
+
+  overflow-y: auto;
+
+  perspective: 5 px;
+}
+.container{
+  font-size: 40px;
+  color: black;
+}
+.navbar{
+  height:90px;
+}
+.section {
+
+  position: relative;
+
+  height: 100vh;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+.sec{
+  position: relative;
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.parallax::after {
+
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+
+  transform: translateZ(-1px) scale(1.5);
+
+  background-size: 100%;
+
+  z-index: -1;
+}
+.static {
+  background:black;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+ html, body {
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+
+
+
+h5{
+  left:200px;
+}
+ 
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+ html, body {
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+ body {
+	 overflow: auto;
+	 perspective: 1px;
+	 transform-style: preserve-3d;
+}
+
+ .container {
+	 padding: 10%;
+	 max-width: 40em;
+	 margin: auto;
+}
+ 
+ .about-big {
+	 transform: translateZ(0.2px) scale(0.7);
+
+
+}
+
+ 
+ body {
+	 font-family: Roboto, sans-serif;
+	 font-weight: 100;
+	 background: #eef1f3;
+
+}
+
+ 
+.sticky + .content {
+  padding-top: 60px;
+}
+
+header {
+  text-align: bottom;
+  color: #fff;
+  font-size: 50px;
+  background-attachment: scroll;
+  background-image: url(https://gotobreadblog.files.wordpress.com/2014/09/img_1501.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.nav {
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+}
+.text{
+  bottom: 100px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+ 
+}
+.container{
+  width: 100%;
+}
+.item {
+  margin: 10px 7px;
+}
+
+.content {
+  margin: auto;
+  max-width: 768px;
+  padding: 0 30px;
+  color: rgba(0,0,0,0.4);
+}
+
+.header {
+  text-align: center;
+  border-bottom: 3px solid blue;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 auto 20px;
+}
+
+.title {
+  display: inline-block;
+  margin: 0;
+}
+
+.description {
+  color: black;
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    order: 2;
+    top: 0;
+    bottom: initial;
+  }
+  
+  .content {
+    order: 3;
+  }
+}
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg1::after {
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-image: url('https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2013/07/coffee-delicious-food-pizza-Favim.com-252697.jpg');
+  background-repeat: no-repeat;
+
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2013/07/coffee-delicious-food-pizza-Favim.com-252697.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.bg2::after {
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-image: url('https://i0.wp.com/www.eatthis.com/wp-content/uploads/2016/03/mocha-coffee-oat-smoothie.jpg?resize=800%2C450&ssl=1');
+  background-repeat: no-repeat;
+}
+.img1::after{
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-image: url('https://placekitten.com/g/800/600');
+  background-repeat: no-repeat;
+}
+.te{
+  color:black;
+font-size: 30px;}
+.te-1{
+  font-size: 10px;
+  color:white;
+}
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 890px;
+}
+
+  h5{
+   color:black; 
+  }
+  p{
+    color:rgb(255, 102, 0);
+  }
+ 
+.about-des{
+	height: auto;
+	width: 120;
+	color: chocolate;
+	padding: 70px 10px;
+  margin: 10px 10px 100px 100px;
+	font-size: 20px;
+  }
+  body{
+    color:black;
+  }
+
+.about-big{
+height: auto;
+	width: auto;
+	color: #AAA;
+	padding: 50px 40px;
+
+  }
